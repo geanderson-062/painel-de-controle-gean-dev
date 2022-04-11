@@ -1,0 +1,59 @@
+
+.animation:hover{
+
+  animation: movimentar 1s infinite;
+
+  }
+
+  @keyframes movimentar { /*determinado a animção e o espaço dela se mexer*/
+  
+    20% {
+  
+      padding: 1rem;
+  
+      background-color: #282A36;
+  
+    }
+  
+  }
+
+.animationLateral:hover{
+
+  animation: movimentarlateral 1s infinite;
+
+  }
+
+@keyframes movimentarlateral { /*determinado a animção e o espaço dela se mexer*/
+  
+    20% {
+  
+      
+      padding: 0.2rem;
+  
+      background-color: #282A36;
+  
+    }
+  
+  }
+
+
+
+.animationTabela:hover{
+
+    animation: movimentarTabela 1s ease forwards infinite; 
+  
+  }
+
+@keyframes movimentarTabela { /*determinado a animção e o espaço dela se mexer*/
+   
+    20% {
+  
+      padding: 1rem;
+  
+      background-color: wheat;
+  
+    }
+  
+  }
+
+ 
